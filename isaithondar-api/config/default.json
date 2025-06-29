@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "app": {
+    "port": "5001",
+    "host": "0.0.0.0",
+    "name": "ISAI-THONDAR-API",
+    "logLevel": "info",
+    "domains": {
+      "allowed": ["*"]
+    }
+  },
+  "sqlLog": false
+}

@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                        // Support modern JS features
+    "module": "CommonJS",                      // Node.js compatibility
+    "lib": ["ES2022"],                         // Built-in APIs (like Promise, Set, etc.)
+    "moduleResolution": "node",               // Resolve Node.js-style imports
+    "rootDir": "./src",                        // Your TypeScript source files
+    "outDir": "./lib",                         // Output compiled files
+    "esModuleInterop": true,                   // Default + named import compatibility
+    "forceConsistentCasingInFileNames": true,  // Prevent import path mismatches
+    "strict": true,                            // All strict type checks enabled
+    "skipLibCheck": true,                      // Faster builds
+    "resolveJsonModule": true,                 // Allow importing JSON files
+    "allowSyntheticDefaultImports": true       // Allows `import x from 'cjs-module'`
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "lib"]
+}
